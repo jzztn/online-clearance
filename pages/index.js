@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Hero from '../components/Hero'
 import Features from '../components/Features'
 import Footer from '../components/Footer'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -15,6 +16,9 @@ export default function Home() {
       <Hero />
       <Features />
       <Footer />
+
+      <Link href={'/students/home'}><h1>Student Account</h1></Link>
+      <Link href={'/instructors/home'}><h1>Staff Account</h1></Link>
     </div>
   )
 }

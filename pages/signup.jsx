@@ -4,12 +4,12 @@ import Input from "../components/signup/Input"
 const Signup = () => {
 	return (
 		<div className="h-screen relative bg-gradient-to-b from-pink to-violet grid grid-rows-[auto,1fr,auto] gap-10 laptop:overflow-hidden">
-			<nav className="flex gap-5 justify-end p-4">
+			<nav className="flex tablet:gap-5 justify-end p-4">
 				<Link href={'/'}><h1 className="text-white text-sm laptop:text-md tracking-wider hover:bg-white hover:text-gray py-3 px-6 rounded-full cursor-pointer transition-all duration-700">HOME</h1></Link>
 				<Link href={'/login'}><h1 className="text-white text-sm laptop:text-md tracking-wider hover:bg-white hover:text-gray py-3 px-6 rounded-full cursor-pointer transition-all duration-700">LOG IN</h1></Link>
 			</nav>
 
-			<div className="grid items-center tablet:justify-center px-4">
+			<div className="grid items-center tablet:justify-center mx-20">
 				<div className="flex flex-col gap-6 laptop:ml-[60%]">
 					<Input
 						type="text"
