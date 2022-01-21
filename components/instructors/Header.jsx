@@ -22,7 +22,7 @@ const Header = ({ name, position }) => {
 
 					<div>
 						<UploadIcon className='w-6 h-6 hover:text-gray transition-all duration-700 cursor-pointer' onClick={handleUpload} />
-						<div className={`absolute top-15 right-5 w-80 tablet:w-96 bg-white border-[1px] border-gray py-4 px-6 grid gap-8 rounded-md ${upload ? 'hidden' : 'block'}`}>
+						<div className={`absolute top-15 right-5 w-80 tablet:w-96 bg-white border-[1px] border-gray py-4 px-6 grid gap-8 rounded-md ${upload ? 'block' : 'hidden'}`}>
 							<div className="w-ful border-[1px] border-gray-300 py-3 pl-4 tracking-wide rounded-md">Choose a File</div>
 							<div>
 								<button className='bg-gradient-to-b from-violet to-pink py-3 px-10 text-white rounded-md'>Upload</button>

@@ -2,9 +2,9 @@ import FeatureBox from "./feature-box/FeatureBox"
 
 const Features = () => {
 	return (
-		<div className="grid bg-gradient-to-b from-pink to-violet items-center justify-center px-6 chrome:px-10 lg:px-10">
-			<div className="max-w-6xl lg:mt-32 grid grid-flow-row gap-10 lg:gap-2">
-				<div className=" hidden lg:block">
+		<div className="grid bg-gradient-to-b from-pink to-violet items-center justify-center px-6 md:pt-28 lg:px-20 lg:pt-0">
+			<div className="max-w-7xl lg:mt-32 grid grid-flow-row gap-10 lg:gap-2">
+				<div className=" hidden md:block">
 					<FeatureBox
 						paragraph="Online clearance is much convinient to do. Unlike any pther days students, parents would most likely to stay in a piled up line before getting wjat they want in the counter. But, with online clearance there is no need to do that, just at your homes, you will have what you need."
 						img='/1.png'
