@@ -6,7 +6,10 @@ const Header = ({ name, position }) => {
 		<nav className="py-5 px-6">
 			<div>
 				<div className="flex gap-6 justify-end">
-					<Link href={'/instructors/home'}><h1>Home</h1></Link>
+					<div className='group'>
+						<Link href={'/instructors/home'}><h1 className='cursor-pointer'>Home</h1></Link>
+						<div className='bg-gradient-to-b from-pink to-violet w-0 h-1 rounded-md group-hover:w-full transition-all duration-500'></div>
+					</div>
 					<UploadIcon className='w-6 h-6 hover:text-gray transition-all duration-700 cursor-pointer' />
 					<Link href={'/'}><LogoutIcon className='w-6 h-6 hover:text-gray transition-all duration-700 cursor-pointer' /></Link>
 				</div>

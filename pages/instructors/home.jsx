@@ -1,4 +1,3 @@
-import Link from "next/link";
 import Header from "../../components/instructors/Header";
 import Student from "../../components/instructors/Student";
 
@@ -35,7 +34,6 @@ const Home = () => {
 
 					<div>
 						<h1><span className="font-semibold pb-10">300</span> All</h1>
-						<Link href={'/instructors/subject'}><h1>Subject</h1></Link>
 					</div>
 				</div>
 			</div>

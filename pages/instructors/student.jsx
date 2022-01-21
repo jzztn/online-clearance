@@ -21,7 +21,7 @@ const Home = () => {
 					</div>
 
 					<div>
-						<button className="bg-gradient-to-b from-violet to-pink py-3 px-10 text-white tracking-wide rounded-md hover:scale-105 transition-all duration-500 mb-10">Add Requirement</button>
+						<button className="bg-gradient-to-b from-violet to-pink py-3 px-10 text-white tracking-wide rounded-md hover:scale-105 transition-all duration-500 mb-10">Save Changes</button>
 					</div>
 				</div>
 			</div>

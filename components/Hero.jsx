@@ -13,7 +13,7 @@ const Hero = () => {
 				</div>
 
 				<div>
-					<Link href={'/login'}><button className="md:mt-4 bg-gradient-to-b from-violet to-pink py-3 px-16 tablet:px-24 xl:py-4 xl:px-28 text-white font-semibold text-md tracking-wide rounded-full shadow-xl hover:scale-105 transition-all duration-500">LOG IN</button></Link>
+					<Link href={'/login/student'}><button className="md:mt-4 bg-gradient-to-b from-violet to-pink py-3 px-16 tablet:px-24 xl:py-4 xl:px-28 text-white font-semibold text-md tracking-wide rounded-full shadow-xl hover:scale-105 transition-all duration-500">LOG IN</button></Link>
 				</div>
 			</div>
 
