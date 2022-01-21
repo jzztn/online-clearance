@@ -17,7 +17,7 @@ const StudentDetail = ({ lastName, firstName, status }) => {
 
 				<div className="group">
 					<button className="cursor-pointer" onClick={handleClickArrow}>▼</button>
-					<div className={`bg-gradient-to-b from-violet to-pink text-white grid text-center absolute bottom-[-49px] left-0 w-32 py-3 px-5 rounded-bl-md rounded-br-md rounded-tr-md ${clickArrow ? 'block' : 'hidden'}`}>
+					<div className={`bg-gradient-to-b from-violet to-pink text-white grid text-center absolute bottom-[-48px] left-0 w-32 py-3 px-5 rounded-bl-md rounded-br-md rounded-tr-md ${clickArrow ? 'block' : 'hidden'}`}>
 						<h1>Cleared</h1>
 					</div>
 				</div>
@@ -27,4 +27,3 @@ const StudentDetail = ({ lastName, firstName, status }) => {
 };
 
 export default StudentDetail;
-// border - t - gray border - [1px]
